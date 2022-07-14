@@ -23,5 +23,7 @@ public class DM4 {
 	    i++;
 	}
 	System.out.println("Heads: "+heads+", Tails: "+tails);
+	if(heads > tails) System.out.println(name+" won!");
+	else System.out.println(name+" lost...");
     }
 }
